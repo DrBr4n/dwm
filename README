@@ -1,9 +1,31 @@
 My build of dwm.
 
 Binds:
-Mod + q                kills client\
-Mod + return           spawns st
-Mod + p                spawns dmenu
-Mod + j                goes down in the window stack
-Mod + k                goes up in the window stack
-Mod + space            cicle layouts
+M + key                 view tag key
+M|Ctrl + key            add key to visible tags
+M|Shift + key           send curr window to key tag
+M|Shift|Ctrl + key      not sure
+
+M + p                   spawns dmenu
+M + return              spawns st
+M + b                   toggles top bar
+M + j                   focus next window
+M + k                   focus previous window
+M + i                   increases windows in master
+M + d                   decreases windows in master
+M + l                   increases master width
+M + h                   decreases master width
+M + tab                 alternate between cur and last tag
+M + q                   kill client
+M + t                   set tiled layout
+M + f                   set float layout
+M + m                   set monocle layout
+M + space               cycle last layout
+M|Shift + space         toggle floating
+M + 0                   see all tags
+M|Shift + 0             duplicates cur window to all tags?
+M + ,                   focus previous monitor
+M + .                   focus next monitor
+M|Shift + ,             send curr window to prev monitor
+M|Shift + .             send curr window to next monitor
+M|Shift + q             quit dwm
