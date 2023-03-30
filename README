@@ -29,3 +29,8 @@ M + .                   focus next monitor
 M|Shift + ,             send curr window to prev monitor
 M|Shift + .             send curr window to next monitor
 M|Shift + q             quit dwm
+fn + F6                 mute sound
+fn + F7                 decrease sound
+fn + F8                 increase sound
+fn + F2                 decrease brightness
+fn + F3                 increase brightness

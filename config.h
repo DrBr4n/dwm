@@ -45,6 +45,15 @@ static const Layout layouts[] = {
 	{ "[M]",      monocle },
 };
 
+/* Sound */
+static const char *upvol[]   = { "/usr/bin/pactl", "set-sink-volume", "0", "+5%",     NULL };
+static const char *downvol[] = { "/usr/bin/pactl", "set-sink-volume", "0", "-5%",     NULL };
+static const char *mutevol[] = { "/usr/bin/pactl", "set-sink-mute",   "0", "toggle",  NULL };
+
+/* Brightness */
+static const char *light_up[] = {"/usr/bin/light", "-A", "5", NULL};
+static const char *light_down[] = {"/usr/bin/light", "-U", "5", NULL};
+
 /* key definitions */
 #define MODKEY Mod1Mask
 #define TAGKEYS(KEY,TAG) \
@@ -96,8 +105,12 @@ static const Key keys[] = {
 	TAGKEYS(                        XK_8,                      7)
 	TAGKEYS(                        XK_9,                      8)
 	{ MODKEY|ShiftMask,             XK_q,      quit,           {0} },
+    { 0,                            XK_F6,     spawn,          {.v = mutevol} },
+    { 0,                            XK_F7,     spawn,          {.v = downvol} },
+    { 0,                            XK_F8,     spawn,          {.v = upvol} },
+    { 0,                            XK_F2,     spawn,          {.v = light_down} },
+    { 0,                            XK_F3,     spawn,          {.v = light_up} },
 };
-
 /* button definitions */
 /* click can be ClkTagBar, ClkLtSymbol, ClkStatusText, ClkWinTitle, ClkClientWin, or ClkRootWin */
 static const Button buttons[] = {
