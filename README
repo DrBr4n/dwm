@@ -8,6 +8,7 @@ M|Shift|Ctrl + key      not sure
 
 M + p                   spawns dmenu
 M + return              spawns st
+M + w                   spawns web browser
 M + b                   toggles top bar
 M + j                   focus next window
 M + k                   focus previous window
