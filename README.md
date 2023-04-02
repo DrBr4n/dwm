@@ -1,6 +1,6 @@
-#My build of dwm.
+# My build of dwm.
 
-##Keybinds
+## Keybinds
 ### Navigation
 - [Mod] + [key]                 view tag key
 - [Mod|Ctrl] + [key]            add key to visible tags
