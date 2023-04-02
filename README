@@ -1,37 +1,36 @@
-My build of dwm.
+#My build of dwm.
 
-Binds:
-M + key                 view tag key
-M|Ctrl + key            add key to visible tags
-M|Shift + key           send curr window to key tag
-M|Shift|Ctrl + key      not sure
+##Keybinds
+### Navigation
+- [Mod] + [key]                 view tag key
+- [Mod|Ctrl] + [key]            add key to visible tags
+- [Mod|Shift] + [key]           move active window to key tag
+- [Mod|Shift|Ctrl] + [key]      copy active window to key tag
+- [Mod] + [0]                   view all tags
+- [Mod|Shift] + [0]             copy active window to all tags
+- [Mod] + [,/.]                 focus previous/next monitor
+- [Mod|Shift] + [,/.]           send active window to prev/next monitor
 
-M + p                   spawns dmenu
-M + return              spawns st
-M + w                   spawns web browser
-M + b                   toggles top bar
-M + j                   focus next window
-M + k                   focus previous window
-M + i                   increases windows in master
-M + d                   decreases windows in master
-M + l                   increases master width
-M + h                   decreases master width
-M + tab                 alternate between cur and last tag
-M + q                   kill client
-M + t                   set tiled layout
-M + f                   set float layout
-M + m                   set monocle layout
-M + space               cycle last layout
-M|Shift + space         toggle floating
-M + 0                   see all tags
-M|Shift + 0             duplicates cur window to all tags?
-M + ,                   focus previous monitor
-M + .                   focus next monitor
-M|Shift + ,             send curr window to prev monitor
-M|Shift + .             send curr window to next monitor
-M|Shift + q             quit dwm
-fn + F6                 mute sound
-fn + F7                 decrease sound
-fn + F8                 increase sound
-fn + F2                 decrease brightness
-fn + F3                 increase brightness
+### Actions
+- [Mod|Shift] + [return]        spawn dmenu
+- [Mod] + [return]              spawn st
+- [Mod] + [w]                   spawn web browser
+- [Mod] + [b]                   toggle top bar
+- [Mod] + [p]                   push active window to master, or pulls last used window onto master
+- [Mod] + [j/k]                 focus next/previous window
+- [Mod] + [i/d]                 increases/decreases windows in master
+- [Mod] + [l/h]                 increases/decreases master width
+- [Mod] + [tab]                 alternate between cur and last tag
+- [Mod] + [q]                   kill client
+- [fn] + [F6]                   mute sound
+- [fn] + [F7/F8]                decrease/increase sound
+- [fn] + [F2/F3]                decrease/increase brightness
+- [Mod|Shift] + [q]             quit dwm
+
+### Layout 
+- [Mod] + [t]                   set tiled layout
+- [Mod] + [f]                   set float layout
+- [Mod] + [m]                   set monocle layout
+- [Mod] + [space]               cycle last layout
+- [Mod|Shift] + [space]         toggle floating
+
