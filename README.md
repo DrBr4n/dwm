@@ -17,20 +17,23 @@
 - [Mod|Shift]       + [,/.]     send active window to prev/next monitor
 
 ### Actions
-- [Mod|Shift]   + [return]      spawn dmenu
 - [Mod]         + [return]      spawn st
+- [Mod|Shift]   + [return]      spawn dmenu
 - [Mod]         + [w]           spawn web browser
 - [Mod]         + [b]           toggle top bar
 - [Mod]         + [p]           push active window to master, or pulls last used window onto master
 - [Mod]         + [j/k]         focus next/previous window
 - [Mod]         + [i/d]         increases/decreases windows in master
 - [Mod]         + [l/h]         increases/decreases master width
+- [Mod]         + [-/=]         increases/decreases gaps between windows
+- [Mod|Shift]   + [-/=]         reset/toggle gaps between windows
+- [Mod]         + [l/h]         increases/decreases master width
 - [Mod]         + [tab]         alternate between cur and last tag
 - [Mod]         + [q]           kill client
+- [Mod|Shift]   + [q]           quit dwm
 - [fn]          + [F6]          mute sound
 - [fn]          + [F7/F8]       decrease/increase sound
 - [fn]          + [F2/F3]       decrease/increase brightness
-- [Mod|Shift]   + [q]           quit dwm
 
 ### Layout 
 - [Mod]         + [t]           set tiled layout
